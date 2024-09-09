@@ -1,0 +1,1301 @@
+@font-face {
+    font-family: "Averta";
+    src: url('/assets/font/AvertaDemoPE.otf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+
+/* HEADER SECTION */
+
+.navbar-section {
+    padding: 40px 0;
+}
+
+.navbar-section .nav-bar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar-section .nav-bar .navbar-content ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    /* justify-content: end; */
+    list-style: none;
+}
+
+.navbar-section .nav-bar .navbar-content ul li {
+    font-family: "Averta";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.6px;
+    text-align: left;
+    padding-left: 60px;
+}
+
+
+/* FIRST SECTION */
+
+.container-1 {
+    max-width: 1370px;
+    margin: 0 auto;
+    padding-left: 20px;
+}
+
+.first-section {
+    padding-bottom: 96px;
+}
+
+.first-section .outter-warpper {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.first-section .outter-warpper .left-inner-warpper {
+    width: 50%;
+    padding-left: 56px;
+}
+
+.first-section .outter-warpper .left-inner-warpper .contect {
+    max-width: 471px;
+}
+
+.first-section .outter-warpper .left-inner-warpper .digital-title h1 {
+    font-family: "Averta";
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 49.44px;
+    text-align: left;
+}
+
+.first-section .outter-warpper .left-inner-warpper .detail P {
+    font-family: "Averta";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.6px;
+    text-align: left;
+    color: #565656;
+    padding-top: 40px;
+}
+
+.first-section .outter-warpper .left-inner-warpper .btn-blue {
+    width: 215px;
+    padding-top: 33px;
+}
+
+.first-section .outter-warpper .left-inner-warpper .btn-blue button {
+    width: 215px;
+    height: 65px;
+    border-radius: 60px;
+    background-color: blue;
+    border: none;
+    color: white;
+    font-family: "Averta";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24.72px;
+    letter-spacing: 0.065em;
+    text-align: center;
+}
+
+.first-section .outter-warpper .left-inner-warpper .dot-dot {
+    position: relative;
+}
+
+.first-section .outter-warpper .left-inner-warpper .dot-dot::after {
+    content: '';
+    background-image: url('/assets/img/astudio/meeting/Dot.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 404px;
+    height: 154px;
+    position: absolute;
+    top: -36px;
+    left: -50px;
+    z-index: -1;
+}
+
+.first-section .outter-warpper .right-inner-warpper {
+    width: 50%;
+}
+
+.first-section .outter-warpper .right-inner-warpper .meeting-img {
+    max-width: 754px;
+}
+
+.first-section .outter-warpper .right-inner-warpper .meeting-img img {
+    width: 100%;
+}
+
+
+.first-section .outter-warpper .right-inner-warpper .blue-ellipse {
+    position: relative;
+}
+
+.first-section .outter-warpper .right-inner-warpper .blue-ellipse::after {
+    content: '';
+    background-image: url('/assets/img/astudio/meeting/Ellipse.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 129px;
+    height: 129px;
+    position: absolute;
+    top: 0;
+    left: -63px;
+    z-index: -1;
+}
+
+.first-section .outter-warpper .right-inner-warpper .pink-rectangle {
+    position: relative;
+}
+
+.first-section .outter-warpper .right-inner-warpper .pink-rectangle::after {
+    content: '';
+    background-image: url('/assets/img/astudio/meeting/Rectangle.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 178px;
+    height: 178px;
+    position: absolute;
+    top: -89px;
+    left: 400px;
+    z-index: -2;
+}
+
+@media (max-width:1024px) {
+    .first-section .outter-warpper .left-inner-warpper {
+        width: 100%;
+    }
+
+    .first-section .outter-warpper .right-inner-warpper {
+        width: 100%;
+        padding-top: 50px;
+    }
+}
+
+@media (max-width:768px) {
+    .first-section .outter-warpper .left-inner-warpper {
+        width: 100%;
+    }
+
+    .first-section .outter-warpper .right-inner-warpper {
+        width: 100%;
+    }
+
+    .first-section .outter-warpper .left-inner-warpper .dot-dot {
+        display: none;
+    }
+
+    .first-section .outter-warpper .right-inner-warpper .pink-rectangle{
+        display: none;
+    }
+
+    .first-section .outter-warpper .right-inner-warpper .blue-ellipse {
+        display: none;
+    }
+
+    .first-section .outter-warpper .left-inner-warpper{
+        padding-left: 0;
+       }
+}
+
+
+/* OUR CLIENT */
+
+.our-client {
+    padding-top: 40px;
+}
+
+.our-client .outter-warpper {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.our-client .outter-warpper .left-inner-warpper {
+    width: 30%;
+}
+
+.our-client .outter-warpper .left-inner-warpper .our-title h1 {
+    font-family: "Averta";
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 49.44px;
+    text-align: left;
+}
+
+.our-client .outter-warpper .left-inner-warpper .detail p {
+    font-family: "Averta";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28.8px;
+    text-align: left;
+    color: #757575;
+    padding-top: 17px;
+}
+
+.our-client .outter-warpper .right-inner-warpper {
+    width: 70%;
+}
+
+.our-client .outter-warpper .right-inner-warpper .company-logos {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+@media (max-width:1024px) {
+    .our-client .outter-warpper .left-inner-warpper {
+        width: 100%;
+    }
+
+    .our-client .outter-warpper .right-inner-warpper {
+        width: 100%;
+    }
+
+    .our-client .outter-warpper .right-inner-warpper .company-logos {
+        justify-content: center;
+        padding-top: 50px;
+    }
+
+}
+
+@media (max-width:768px) {
+    .our-client{
+        padding-top: 0;   
+    }
+
+    .our-client .outter-warpper .left-inner-warpper {
+        width: 100%;
+    }
+
+    .our-client .outter-warpper .right-inner-warpper {
+        width: 100%;
+    }
+
+    .our-client .outter-warpper .left-inner-warpper .detail p{
+        padding-bottom: 25px;
+    }
+
+    .our-client .outter-warpper .right-inner-warpper .company-logos{
+        gap: 25px;
+        padding-left: 60px;
+    }
+}
+
+
+/* BUSINESS SECTION */
+
+.container-2 {
+    max-width: 1370px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.business-sec {
+    padding-top: 200px;
+    /* background-image: url(/assets/img/business/blue-bg.svg);
+    background-size: cover; */
+}
+
+.business-sec .outter-warpper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.business-sec .outter-warpper .left-inner {
+    width: 33%;
+    padding-left: 60px;
+}
+
+
+.business-sec .outter-warpper .right-inner {
+    width: 67%;
+}
+
+.business-sec .outter-warpper .left-inner .business-title h1 {
+    font-family: "Averta";
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 49.44px;
+    text-align: left;
+}
+
+.business-sec .outter-warpper .left-inner .ellipsepink {
+    position: relative;
+}
+
+.business-sec .outter-warpper .left-inner .ellipsepink::after {
+    content: '';
+    background-image: url('/assets/img/business/org.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 178px;
+    height: 178px;
+    position: absolute;
+    top: -153px;
+    left: -41px;
+    z-index: -2;
+}
+
+.business-sec .outter-warpper .left-inner .business-detial {
+    padding-top: 30px;
+}
+
+.business-sec .outter-warpper .left-inner .business-detial p {
+    font-family: "Averta";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.6px;
+    text-align: left;
+    color: #565656;
+}
+
+.business-sec .outter-warpper .left-inner .dot {
+    position: relative;
+}
+
+.business-sec .outter-warpper .left-inner .dot::after {
+    content: '';
+    background-image: url('/assets/img/business/dot.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 405px;
+    height: 154px;
+    position: absolute;
+    top: 129px;
+    left: 3px;
+    z-index: -2;
+}
+
+.business-sec .outter-warpper .right-inner {
+    width: 67%;
+    position: relative;
+
+}
+
+.business-sec .outter-warpper .right-inner::after {
+    content: '';
+    position: absolute;
+    right: -20px;
+    top: 180px;
+    width: 995px;
+    height: 619px;
+    border-radius: 150px 0 0 0;
+    background-color: #F4F9FF;
+    z-index: -1;
+}
+
+.business-sec .outter-warpper .right-inner .business-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.business-sec .outter-warpper .right-inner .business-icons .left-inner-warpper {
+    margin-top: 80px;
+    margin-right: 34px;
+}
+
+.business-sec .outter-warpper .right-inner .left-inner-warpper .outter-box-warpper {
+    padding-top: 30px;
+    width: 50%;
+}
+
+.business-sec .outter-warpper .right-inner .right-inner-warpper .outter-box-warpper {
+    padding-top: 30px;
+    width: 50%;
+}
+
+.business-sec .outter-warpper .right-inner .outter-box-warpper .inner-box-warpper {
+    width: 308px;
+    min-height: 379px;
+    border-radius: 40px;
+    border: 1px #f2f2f2 solid;
+    box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.05);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    text-align: center;
+}
+
+.business-sec .outter-warpper .right-inner .outter-box-warpper .inner-box-warpper .planing-box .business-title {
+    padding: 27px 39px;
+}
+
+.business-sec .outter-warpper .right-inner .outter-box-warpper .inner-box-warpper .planing-box .business-title h1 {
+    font-family: "Averta";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29.66px;
+    text-align: center;
+}
+
+.business-sec .outter-warpper .right-inner .outter-box-warpper .inner-box-warpper .planing-box {
+    padding: 0 31px;
+}
+
+.business-sec .outter-warpper .right-inner .outter-box-warpper .inner-box-warpper .planing-box .business-detail {
+    font-family: "Averta";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+    text-align: center;
+    color: #757575;
+}
+
+.business-sec .outter-warpper .right-inner .outter-box-warpper .inner-box-warpper .financial-box .business-title {
+    padding: 27px 23px;
+}
+
+.business-sec .outter-warpper .right-inner .outter-box-warpper .inner-box-warpper .financial-box .business-title h1 {
+    font-family: "Averta";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29.66px;
+    text-align: center;
+}
+
+.business-sec .outter-warpper .right-inner .outter-box-warpper .inner-box-warpper .financial-box {
+    padding: 0 31px;
+}
+
+.business-sec .outter-warpper .right-inner .outter-box-warpper .inner-box-warpper .financial-box .business-detail {
+    font-family: "Averta";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+    text-align: center;
+    color: #757575;
+}
+
+.business-sec .outter-warpper .right-inner .outter-box-warpper .inner-box-warpper .devlopment-box {
+    width: 308px;
+    height: 379px;
+    border-radius: 40px;
+    border: 1px;
+    box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.05);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.business-sec .outter-warpper .right-inner .outter-box-warpper .inner-box-warpper .devlopment-box .business-title {
+    padding: 27px 3px;
+}
+
+.business-sec .outter-warpper .right-inner .outter-box-warpper .inner-box-warpper .devlopment-box .business-title h1 {
+    font-family: "Averta";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29.66px;
+    text-align: center;
+}
+
+.business-sec .outter-warpper .right-inner .outter-box-warpper .inner-box-warpper .devlopment-box {
+    padding: 0 31px;
+}
+
+.business-sec .outter-warpper .right-inner .outter-box-warpper .inner-box-warpper .devlopment-box .business-detail {
+    font-family: "Averta";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+    text-align: center;
+    color: #757575;
+}
+
+.business-sec .outter-warpper .right-inner .outter-box-warpper .inner-box-warpper .market-box {
+    width: 308px;
+    height: 379px;
+    border-radius: 40px;
+    border: 1px;
+    box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.05);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.business-sec .outter-warpper .right-inner .outter-box-warpper .inner-box-warpper .market-box .business-title {
+    padding: 27px 7px;
+}
+
+.business-sec .outter-warpper .right-inner .outter-box-warpper .inner-box-warpper .market-box .business-title h1 {
+    font-family: "Averta";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29.66px;
+    text-align: center;
+}
+
+.business-sec .outter-warpper .right-inner .outter-box-warpper .inner-box-warpper .market-box {
+    padding: 0 31px;
+}
+
+.business-sec .outter-warpper .right-inner .outter-box-warpper .inner-box-warpper .market-box .business-detail {
+    font-family: "Averta";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+    text-align: center;
+    color: #757575;
+}
+
+.business-sec .outter-warpper .right-inner .business-icons .right-inner-warpper .outter-box-warpper .inner-box-warpper .market-box .circle {
+    position: relative;
+}
+
+.business-sec .outter-warpper .right-inner .business-icons .right-inner-warpper .outter-box-warpper .inner-box-warpper .market-box .circle::after {
+    content: '';
+    background-image: url('/assets/img/business/circle.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    right: -191px;
+    bottom: -77px;
+    z-index: -10;
+}
+
+@media (max-width:1024px) {
+    .business-sec .outter-warpper .left-inner {
+        width: 100%;
+    }
+
+    .business-sec .outter-warpper .right-inner {
+        width: 100%;
+    }
+
+    .business-sec .outter-warpper .right-inner .business-icons .left-inner-warpper{
+        margin-right: 0;
+    }
+
+    .business-sec .outter-warpper .right-inner .business-icons .right-inner-warpper{
+        margin-right: 0;
+    }
+
+    .business-sec .outter-warpper .right-inner .business-icons{
+        justify-content: space-evenly;
+    }
+
+}
+
+@media (max-width:768px) {
+    .business-sec{
+        padding-top: 100px;
+    }
+
+    .business-sec .outter-warpper .left-inner {
+        width: 100%;
+    }
+
+    .business-sec .outter-warpper .right-inner {
+        width: 100%;
+    }
+
+    .business-sec .outter-warpper .left-inner .ellipsepink{
+        display: none;
+    }
+
+    .business-sec .outter-warpper .left-inner .dot{
+        display: none;
+    }
+
+    .business-sec .outter-warpper .right-inner::after{
+        display: none;
+    }
+
+    .business-sec .outter-warpper .right-inner .business-icons .right-inner-warpper .outter-box-warpper .inner-box-warpper .market-box .circle{
+        display: none;
+    }
+
+    .business-sec .outter-warpper .left-inner{
+        padding-left: 0;
+    }
+
+    .business-sec .outter-warpper .right-inner .business-icons .left-inner-warpper{
+        margin-top: 0;
+    }
+
+    .business-sec .outter-warpper .right-inner .business-icons .right-inner-warpper{
+        margin-right: 0;
+    }
+}
+
+
+/* DIGITAL PRODUCT */
+
+.digital-product .outter-warpper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.digital-product .outter-warpper .left-inner {
+    width: 50%;
+}
+
+.digital-product .outter-warpper .left-inner .img-digital img{
+    width: 100%;
+}
+
+.digital-product .outter-warpper .left-inner .ellipsepink {
+    position: relative;
+}
+
+.digital-product .outter-warpper .left-inner .ellipsepink::after {  
+    content: '';
+    background-image: url('/assets/img/digitalproduct/Ellipsepink.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 129px;
+    height: 129px;
+    position: absolute;
+    bottom: 5px;
+    right: -33px;
+    z-index: -2;
+}
+
+.digital-product .outter-warpper .right-inner {
+    width: 50%;
+    padding-left: 80px;
+}
+
+.digital-product .outter-warpper .right-inner .digital-title h1 {
+    font-family: "Averta";
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 49.44px;
+    text-align: left;
+}
+
+.digital-product .outter-warpper .right-inner .digital-detail {
+    font-family: "Averta";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.6px;
+    text-align: left;
+    color: #565656;
+    padding-top: 30px;
+}
+
+.digital-product .outter-warpper .right-inner .rectangleblue {
+    position: relative;
+
+}
+
+.digital-product .outter-warpper .right-inner .rectangleblue::after {
+    content: '';
+    background-image: url('/assets/img/digitalproduct/Rectangleblue.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 178px;
+    height: 178px;
+    position: absolute;
+    top: -123px;
+    left: -36px;
+    z-index: -2;
+}
+
+@media (max-width:1024px) {
+    .digital-product .outter-warpper .left-inner{
+        width: 100%;
+    }
+
+    .digital-product .outter-warpper .right-inner{
+        width: 100%;
+    }
+}
+
+@media (max-width:768px) {
+    .digital-product .outter-warpper .left-inner{
+        width: 100%;
+        padding-top: 20px;
+    }
+
+    .digital-product .outter-warpper .right-inner{
+        width: 100%;
+    }
+    .digital-product .outter-warpper .left-inner .ellipsepink{
+        display: none;
+    }
+
+    .digital-product .outter-warpper .right-inner .rectangleblue {
+        display: none;
+    }
+
+    .digital-product .outter-warpper .right-inner{
+        padding-left: 0;
+    }
+}
+
+
+/* CLIENT SECTION */
+
+.clientsection {
+    padding-top: 80px;
+}
+
+.clientsection .client-title h1 {
+    font-family: "Averta";
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 49.44px;
+    text-align: center;
+}
+
+.clientsection .client-detail {
+    padding-top: 17PX;
+}
+
+.clientsection .client-detail p {
+    font-family: "Averta";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28.8px;
+    text-align: center;
+    color: #757575;
+}
+
+.clientsection .main-warpper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding-top: 113px;
+}
+
+.clientsection .main-warpper .outter-warpper {
+    width: 33.33%;
+}
+
+.clientsection .main-warpper .outter-warpper .inner-warpper .dot {
+    position: relative;
+}
+
+.clientsection .main-warpper .outter-warpper .inner-warpper .dot::after {
+    content: '';
+    background-image: url('/assets/img/client-imgs/Dot.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 196px;
+    height: 154px; 
+    position: absolute;
+    top: -11px;
+    left: 191px;
+    z-index: -2;
+}
+
+.clientsection .main-warpper .outter-warpper .inner-warpper .client-matthew img {
+    width: 100%;
+}
+
+.clientsection .main-warpper .outter-warpper .inner-warpper .ellips-pis {
+    position: relative;
+}
+
+.clientsection .main-warpper .outter-warpper .inner-warpper .ellips-pis::after {
+    content: '';
+    background-image: url('/assets/img/client-imgs/Ellipsepis.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    top: -160px;
+    left: 42px;
+    z-index: -2;
+}
+
+.clientsection .main-warpper .outter-warpper .inner-warpper .client-name h1 {
+    font-family: "Averta";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29.66px;
+    text-align: left;
+}
+
+.clientsection .main-warpper .outter-warpper .inner-warpper .client-detail p {
+    font-family: "Averta";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.6px;
+    text-align: left;
+    color: #565656;
+}
+
+.clientsection .main-warpper .outter-warpper .inner-warpper .sidedot {
+    position: relative;
+}
+
+.clientsection .main-warpper .outter-warpper .inner-warpper .sidedot::after {
+    content: '';
+    background-image: url('/assets/img/client-imgs/sidedot.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 184px;
+    height: 16px;
+    position: absolute;
+    top: 30px;
+    left: 0;
+}
+
+.clientsection .main-warpper .outter-warpper .inner-warpper .client-imgs {
+    padding-left: 37px;
+}
+
+.clientsection .main-warpper .outter-warpper .inner-warpper .client-imgs img {
+    width: 100%;
+}
+
+.clientsection .main-warpper .outter-warpper .inner-warpper .client-imgs .elli-pink {
+    position: relative;
+}
+
+.clientsection .main-warpper .outter-warpper .inner-warpper .client-imgs .elli-pink::after {
+    content: '';
+    background-image: url('/assets/img/client-imgs/Ellipsepink.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 184px;
+    height: 184px;
+    position: absolute;
+    bottom: 77px;
+    right: 155px;
+    z-index: -1;
+}
+
+@media (max-width:1024px) {
+    .clientsection .main-warpper .outter-warpper {
+        width: 100%;
+    }
+
+    .clientsection .main-warpper .outter-warpper .inner-warpper .client-imgs{
+        padding-left: 0;
+        padding-top: 94px;
+    }
+}
+
+@media (max-width:768px) {
+    .clientsection .main-warpper{
+        padding-top: 55px;
+    }
+
+    .clientsection .main-warpper .outter-warpper {
+        width: 100%;
+    }
+
+    .clientsection .main-warpper .outter-warpper .inner-warpper .dot{
+        display: none;
+    }
+
+    .clientsection .main-warpper .outter-warpper .inner-warpper .ellips-pis {
+        display: none;
+    }
+
+    .clientsection .main-warpper .outter-warpper .inner-warpper .sidedot{
+        display: none;
+    }
+
+    .clientsection .main-warpper .outter-warpper .inner-warpper .client-imgs .elli-pink{
+        display: none;
+    }
+
+    .clientsection .client-title h1{
+        text-align: left;
+        font-size: 36px;
+    }
+
+    .clientsection .main-warpper .outter-warpper .inner-warpper .client-imgs{
+        padding-left: 0;
+        padding-top: 37px;
+    }
+}
+
+/* CONTACT SECTION */
+
+.contact-section {
+    padding: 148px 0
+}
+
+.contact-section .outter-warpper {
+    width: 1197px;
+    height: 292px;
+    border-radius: 75px;
+    background-color: #F4F9FF;
+    display: flex;
+    flex-wrap: wrap;  
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-section .outter-warpper .left-inner-warpper {
+    width: 50%;
+}
+
+.contact-section .outter-warpper .left-inner-warpper .title {
+    padding-left: 92px;
+}
+
+.contact-section .outter-warpper .left-inner-warpper .sub-title h1 {
+    font-family: "Averta";
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 49.44px;
+    text-align: left;
+}
+
+.contact-section .outter-warpper .left-inner-warpper .detail p {
+    font-family: "Averta";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28.8px;
+    text-align: left;
+    color: #757575;
+    padding-top: 17px;
+}
+
+.contact-section .outter-warpper .left-inner-warpper .pink {
+    position: relative;
+}
+
+.contact-section .outter-warpper .left-inner-warpper .pink::after {
+    content: '';
+    background-image: url('/assets/img/contact/Rectanglepink.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 178px;
+    height: 178px;
+    position: absolute;
+    top: -46px;
+    left: -132px;
+    z-index: -1;
+}
+
+.contact-section .outter-warpper .right-inner-warpper {
+    width: 50%;
+}
+
+.contact-section .outter-warpper .right-inner-warpper .blue {
+    position: relative;
+}
+
+.contact-section .outter-warpper .right-inner-warpper .blue::before {
+    content: '';
+    background-image: url('/assets/img/contact/blue.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 497px;
+    height: 292px;
+    position: absolute;
+    bottom: -185px;
+    right: 0;
+}
+
+.contact-section .outter-warpper .right-inner-warpper .dot-blue {
+    position: relative;
+}
+
+.contact-section .outter-warpper .right-inner-warpper .dot-blue::after {
+    content: '';
+    background-image: url('/assets/img/contact/dot.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 175px;
+    height: 157px;
+    position: absolute;
+    bottom: 7px;
+    right: -35px;
+    z-index: -5;
+}
+
+.contact-section .outter-warpper .right-inner-warpper .email {
+    position: relative;
+}
+
+.contact-section .outter-warpper .right-inner-warpper .email input {
+    border: none;
+    padding: 10px 20px 10px 10px;
+    font-size: 16px;
+    width: 479px;
+    height: 80px;
+    border-radius: 60px;
+    font-family: "Averta";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.78px;
+    text-align: left;
+    color: #959595;
+    padding-left: 34px;
+    z-index: 2;
+}
+
+.contact-section .outter-warpper .right-inner-warpper .email button {
+    position: absolute;
+    right: 133px;
+    bottom: 10px;
+    width: 188px;
+    height: 60px;
+    background-color: #2639ED;
+    color: white;
+    border: none;
+    border-radius: 60px;
+    font-family: "Averta";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.78px;
+    letter-spacing: 0.065em;
+    text-align: center;
+    z-index: 4;
+}
+
+@media (max-width:1024px) {
+    .contact-section .outter-warpper {
+        width: 100%;
+        height: 100%;
+    }
+
+    .contact-section .outter-warpper .left-inner-warpper {
+        width: 100%;
+    }
+
+    .contact-section .outter-warpper .right-inner-warpper {
+        width: 100%;
+    }
+
+    .contact-section .outter-warpper .right-inner-warpper .blue::before {
+        /* content: unset */
+        display: none;
+    }
+
+}
+
+@media (max-width:768px) {
+    .contact-section {
+        padding: 70px 0;
+    }
+
+    .contact-section .outter-warpper {
+        background-color: transparent; 
+    }
+
+    .contact-section .outter-warpper .left-inner-warpper {
+        width: 100%;
+    }
+
+    .contact-section .outter-warpper .right-inner-warpper {
+        width: 100%;
+    }
+
+    .contact-section .outter-warpper .right-inner-warpper .blue{
+        /* content: unset */
+        display: none;
+    }
+
+    .contact-section .outter-warpper .left-inner-warpper .pink{
+        display: none;
+    }
+
+    .contact-section .outter-warpper .right-inner-warpper .dot-blue{
+        display: none;
+    }
+
+    .contact-section .outter-warpper .right-inner-warpper .email input{
+        width: 260px;
+    }
+
+    .contact-section .outter-warpper .right-inner-warpper .email button{
+        position: static;
+    }
+
+    .contact-section .outter-warpper .right-inner-warpper .email{
+        text-align: center;
+    }
+
+    .contact-section .outter-warpper .left-inner-warpper .title{
+        padding-left: 0
+    }
+
+    .clientsection .main-warpper .outter-warpper .inner-warpper .client-imgs{
+        padding-left: 0;
+        padding-top: 37px;
+    }
+
+    .contact-section .outter-warpper .left-inner-warpper .detail p{
+        padding-bottom: 17px;
+    }
+
+}
+
+/* FOOTER SECTION */
+
+.footer-section .footer-start {
+    width: 100%;
+    border-top: 1px solid #e4e4e4;
+    padding-bottom: 63px;
+}
+
+.footer-section .outter {
+    display: flex;
+    flex-wrap: wrap;
+    /* align-items: center; */
+    justify-content: space-between;
+}
+
+.footer-section .outter .left-inner {
+    width: 40%;
+}
+
+.footer-section .outter .left-inner .company-detail{
+    max-width: 270px;
+}
+
+.footer-section .outter .left-inner .company-detail p {
+    font-family: "Averta";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22.4px;
+    text-align: left;
+    color: #565656;
+    padding-top: 26px;
+}
+
+.footer-section .outter .left-inner .social-media {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    padding-top: 40px;
+    padding-bottom: 29px;
+}
+
+.footer-section .outter .left-inner .social-media .twitter {
+    padding: 0 16px;
+}
+
+.footer-section .outter .right-inner {
+    width: 60%;
+}
+
+.footer-section .outter .right-inner .company-details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer-section .outter .right-inner .company-details .contact-us{
+    width: 25%;
+}
+
+.footer-section .outter .right-inner .company-details .contact-us .inner-warpper {
+    padding-left: 30px;
+}
+
+.footer-section .outter .right-inner .company-details .contact-us .inner-warpper .title h1 {
+    font-family: "Averta";
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24.72px;
+    text-align: left;
+}
+
+.footer-section .outter .right-inner .company-details .contact-us .inner-warpper .detail {
+    padding-top: 24px;
+}
+
+.footer-section .outter .right-inner .company-details .contact-us .inner-warpper .detail ul li {
+    list-style: none;
+}
+
+.footer-section .outter .right-inner .company-details .contact-us .inner-warpper .detail ul li a {
+    font-family: "Averta";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    color: #000000;
+    text-decoration: none;
+}
+
+.footer-section .outter .footer-content {
+    width: 100%;
+    border-top: 1px solid #f1f1f1;
+    padding: 23px 0;
+}
+
+.footer-section .outter .footer-content .copyright p {
+    font-family: "Averta";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22.4px;
+    text-align: center;
+    color: #a4a4a4;
+}
+
+@media (max-width:1024px) {
+    .footer-section .outter .left-inner{
+        width: 100%;
+    }
+
+    .footer-section .outter .right-inner{
+        width: 100%;
+    }
+
+    .footer-section .outter .right-inner .company-details .contact-us{
+        width: 50%;
+    }
+}
+
+@media (max-width:768px) {
+    .footer-section .outter .right-inner .company-details .contact-us{
+        width: 100%;
+
+    }
+
+    .footer-section .outter .right-inner .company-details .contact-us .inner-warpper {
+        padding-left: 0;
+    }
+    
+}
